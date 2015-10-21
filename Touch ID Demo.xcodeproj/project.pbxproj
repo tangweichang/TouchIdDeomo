@@ -12,6 +12,7 @@
 		32F152DF1BD717160085AFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F152DD1BD717160085AFE9 /* Main.storyboard */; };
 		32F152E11BD717160085AFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F152E01BD717160085AFE9 /* Assets.xcassets */; };
 		32F152E41BD717160085AFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F152E21BD717160085AFE9 /* LaunchScreen.storyboard */; };
+		32F152EC1BD717340085AFE9 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F152EB1BD717340085AFE9 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		32F152E01BD717160085AFE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32F152E31BD717160085AFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32F152E51BD717160085AFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F152EB1BD717340085AFE9 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F152EC1BD717340085AFE9 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		32F152CD1BD717160085AFE9 = {
 			isa = PBXGroup;
 			children = (
+				32F152EB1BD717340085AFE9 /* LocalAuthentication.framework */,
 				32F152D81BD717160085AFE9 /* Touch ID Demo */,
 				32F152D71BD717160085AFE9 /* Products */,
 			);
